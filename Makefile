@@ -107,7 +107,7 @@ clean-logs:
 .PHONY: clean-book
 clean-book:
 	@cd "$(ROOT)/book" && git clean -d --force && git reset --hard
-	
+
 .PHONY: clean
 clean: clean-logs clean-data
 

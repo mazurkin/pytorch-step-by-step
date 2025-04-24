@@ -4467,26 +4467,25 @@ optional = false
 python-versions = ">=3.8"
 files = [
     {file = "torchtext-0.17.2-cp310-cp310-macosx_10_13_x86_64.whl", hash = "sha256:760ef1464ffe72c5a25f53617b011afeb31641f0ad016479b96d151d2acd8396"},
-]
-
-[package.dependencies]
-numpy = "*"
-requests = "*"
-torch = "2.2.2"
-tqdm = "*"
-
-[package.source]
-type = "url"
-url = "https://download.pytorch.org/whl/cpu/torchtext-0.17.2-cp310-cp310-macosx_10_13_x86_64.whl#sha256=760ef1464ffe72c5a25f53617b011afeb31641f0ad016479b96d151d2acd8396"
-
-[[package]]
-name = "torchtext"
-version = "0.17.2"
-description = "Text utilities, models, transforms, and datasets for PyTorch."
-optional = false
-python-versions = ">=3.8"
-files = [
     {file = "torchtext-0.17.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:84b8b907f6bfbf637ea80521060c8800d3b9f5a5b4ba2daf88ce0f6e728dafa0"},
+    {file = "torchtext-0.17.2-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:6bbfd762aa804b48bd7bd454997597adaa9cf785dba252a2e03241e48c6dbd35"},
+    {file = "torchtext-0.17.2-cp310-cp310-win_amd64.whl", hash = "sha256:f09b677316bb2c1a2a326a01f3549a8f3096170209d5676a7dd6f47583b58e86"},
+    {file = "torchtext-0.17.2-cp311-cp311-macosx_10_13_x86_64.whl", hash = "sha256:1c0235333af0566f343bcfec7ffab0ef217152d75f3951432d4edd9eeb4185ad"},
+    {file = "torchtext-0.17.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:5ea1b44b2ea6792ec0aa1a72527dbd8d92c46e4b5f7180e854082df0e1ae4d60"},
+    {file = "torchtext-0.17.2-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:408b2c07351a6ac4090409860dca9fd8302e189403d77091c30a112824686c83"},
+    {file = "torchtext-0.17.2-cp311-cp311-win_amd64.whl", hash = "sha256:a9f2af1380e9cd7bc55839ffa353c7bfd62eeae9e48383085e3b4494dcdf82c8"},
+    {file = "torchtext-0.17.2-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:1eb3d76abce1f736f369787e089beb4fe6f93665f304fea996fe634e28c13bb9"},
+    {file = "torchtext-0.17.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:39d34491ec9921e7f6877ec28558d401807364006ae6035ff980361b1a09e7e1"},
+    {file = "torchtext-0.17.2-cp312-cp312-manylinux1_x86_64.whl", hash = "sha256:04fb201d46f68a7f708aac7cb9605f8c4a67927f311849d5f00a8095f6132fe3"},
+    {file = "torchtext-0.17.2-cp312-cp312-win_amd64.whl", hash = "sha256:0664f14781a6b045cb5e6610f3ad6240a8f7c1cb92e9567efaf54836a1a56a38"},
+    {file = "torchtext-0.17.2-cp38-cp38-macosx_10_13_x86_64.whl", hash = "sha256:72318d42a831e93a7ca22b801b8790790aecf8fc70e59d5ef0389ebb2b9f62d7"},
+    {file = "torchtext-0.17.2-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:2f3d707f028b4876d12cb72a4a53c5f1c6fef7987b991cb2bc47662db07e6f92"},
+    {file = "torchtext-0.17.2-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:8b531ca852280211ea13cfab031d196b9ce010bf4ec6434605c8419e27fc3231"},
+    {file = "torchtext-0.17.2-cp38-cp38-win_amd64.whl", hash = "sha256:6d60cb71195cd75f30ac065ea60f6dd4d0b313b806724b07ae3bf4d93ece568f"},
+    {file = "torchtext-0.17.2-cp39-cp39-macosx_10_13_x86_64.whl", hash = "sha256:41de828f25f918db53145cf38bfeb1ae0f9e9a0d9c66494dbc39779475055036"},
+    {file = "torchtext-0.17.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:f07201e6cd6d3ffad15cf3a65eb0e8409ad82a2859b880122e1b66aba5a3b2dd"},
+    {file = "torchtext-0.17.2-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:486b51a83f880700824be05ea0ea60e23cd821d15e0a89300c26d35b6f4eb8da"},
+    {file = "torchtext-0.17.2-cp39-cp39-win_amd64.whl", hash = "sha256:a6268589890779947d8a5d1a589f8c9fcc88b76cbaf93e909005414cc660b536"},
 ]
 
 [package.dependencies]
@@ -4494,50 +4493,6 @@ numpy = "*"
 requests = "*"
 torch = "2.2.2"
 tqdm = "*"
-
-[package.source]
-type = "url"
-url = "https://download.pytorch.org/whl/cpu/torchtext-0.17.2-cp310-cp310-macosx_11_0_arm64.whl#sha256=84b8b907f6bfbf637ea80521060c8800d3b9f5a5b4ba2daf88ce0f6e728dafa0"
-
-[[package]]
-name = "torchtext"
-version = "0.17.2+cpu"
-description = "Text utilities, models, transforms, and datasets for PyTorch."
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "torchtext-0.17.2+cpu-cp310-cp310-linux_x86_64.whl", hash = "sha256:3f829a58ee5d971451af1ff4810f36a95fe9beec717eb37c68f4b2f3eb532b02"},
-]
-
-[package.dependencies]
-numpy = "*"
-requests = "*"
-torch = "2.2.2"
-tqdm = "*"
-
-[package.source]
-type = "url"
-url = "https://download.pytorch.org/whl/cpu/torchtext-0.17.2%2Bcpu-cp310-cp310-linux_x86_64.whl#sha256=3f829a58ee5d971451af1ff4810f36a95fe9beec717eb37c68f4b2f3eb532b02"
-
-[[package]]
-name = "torchtext"
-version = "0.17.2+cpu"
-description = "Text utilities, models, transforms, and datasets for PyTorch."
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "torchtext-0.17.2+cpu-cp310-cp310-win_amd64.whl", hash = "sha256:3d9b86fc130c6c00f98c2ec3e36b0c1a96dc966f3e37bcf147ee1124bb2d7bfe"},
-]
-
-[package.dependencies]
-numpy = "*"
-requests = "*"
-torch = "2.2.2"
-tqdm = "*"
-
-[package.source]
-type = "url"
-url = "https://download.pytorch.org/whl/cpu/torchtext-0.17.2%2Bcpu-cp310-cp310-win_amd64.whl#sha256=3d9b86fc130c6c00f98c2ec3e36b0c1a96dc966f3e37bcf147ee1124bb2d7bfe"
 
 [[package]]
 name = "torchvision"
@@ -5007,4 +4962,4 @@ test = ["mypy", "pre-commit", "pytest", "pytest-asyncio", "websockets (>=10.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.16"
-content-hash = "bec222dc29c1b58d8e4aa201e05d9ac8a8dc1a7342134026130dbb6f8a05fbc7"
+content-hash = "f3e8635ed100d40bbe5190266ef50dc79f803298217a6c47414882e36f173481"
