@@ -55,7 +55,8 @@ torchdata = { version = "0.7.1", source="pytorch"}
 torchtext = [
     {url="https://download.pytorch.org/whl/cpu/torchtext-0.17.2%2Bcpu-cp310-cp310-win_amd64.whl#sha256=3d9b86fc130c6c00f98c2ec3e36b0c1a96dc966f3e37bcf147ee1124bb2d7bfe", markers = "sys_platform == 'win32'"},
     {url="https://download.pytorch.org/whl/cpu/torchtext-0.17.2%2Bcpu-cp310-cp310-linux_x86_64.whl#sha256=3f829a58ee5d971451af1ff4810f36a95fe9beec717eb37c68f4b2f3eb532b02", markers = "sys_platform == 'linux'"},
-    {url="https://download.pytorch.org/whl/cpu/torchtext-0.17.2-cp310-cp310-macosx_11_0_arm64.whl#sha256=84b8b907f6bfbf637ea80521060c8800d3b9f5a5b4ba2daf88ce0f6e728dafa0", markers = "sys_platform == 'darwin'"},
+    {url="https://download.pytorch.org/whl/cpu/torchtext-0.17.2-cp310-cp310-macosx_11_0_arm64.whl#sha256=84b8b907f6bfbf637ea80521060c8800d3b9f5a5b4ba2daf88ce0f6e728dafa0", markers = "sys_platform == 'darwin' and platform_machine == 'arm64'"},
+    {url="https://download.pytorch.org/whl/cpu/torchtext-0.17.2-cp310-cp310-macosx_10_13_x86_64.whl#sha256=760ef1464ffe72c5a25f53617b011afeb31641f0ad016479b96d151d2acd8396", markers = "sys_platform == 'darwin' and platform_machine == 'x86_64'"},
 ]
 
 [tool.poetry.group.pytorch-utils.dependencies]
